@@ -11,7 +11,7 @@ import PostDetails from "./Components/Posts/PostDetails/PostDetails";
 export default function App() {
   return (
     <div className="App">
-      <h2>MyForum</h2>
+      <h2>MyForum - Test App</h2>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/explore" element={<Explore />}></Route>
